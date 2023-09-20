@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our Bank</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Accounts</a></li>
+            <li><a href="#">Transactions</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="account-balance">
+        <h2>Your Account Balance:</h2>
+        <p id="balance">$1000.00</p>
+    </section>
+
+    <section id="transaction-history">
+        <h2>Transaction History</h2>
+        <ul>
+            <li>Transaction 1: $100.00</li>
+            <li>Transaction 2: $50.00</li>
+            <!-- Add more transaction history items -->
+        </ul>
+    </section>
+
+    <section id="transfer-money">
+        <h2>Transfer Money</h2>
+        <form>
+            <label for="recipient">Recipient:</label>
+            <input type="text" id="recipient" name="recipient">
+
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount">
+
+            <button type="submit">Transfer</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Banking Application</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

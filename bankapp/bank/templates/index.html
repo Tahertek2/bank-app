@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank App</title>
+  {% load {% static 'static/' %}
+  <link rel="stylesheet" href="{% static 'your_app/styles.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Bank App</h1>
+  </header>
+
+  <div class="container">
+    <section id="operators">
+      <h2>Operators</h2>
+      <ul id="operator-list"></ul>
+    </section>
+
+    <section id="accounts">
+      <h2>Accounts</h2>
+      <ul id="account-list"></ul>
+    </section>
+
+    <section id="cards">
+      <h2>Cards</h2>
+      <ul id="card-list"></ul>
+    </section>
+  </div>
+
+  <script src="{% static 'your_app/script.js' %}"></script>
+</body>
+</html>
